@@ -59,7 +59,9 @@ def check_parameters(Vmax, Vfm, Rmax, R34):
         warnings.warn("Parameter(s) over the limits. Default(s) will be used instead.")
 
 # Placeholder functions for PWModel and rotate_get_HsTpdir 
-# (You need to replace these with your actual implementations)
+
+from PWModel import PWModel
+from rotate_wave_model import rotate_get_HsTpdir
 
 def PWModel(Vmax, Vfm, Rmax, R34, Lat):
     # Placeholder implementation
